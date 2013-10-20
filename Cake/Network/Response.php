@@ -802,7 +802,6 @@ class Response {
 		$this->modified($since);
 		$this->expires($time);
 		$this->sharable(true);
-		$this->maxAge($time - time());
 	}
 
 /**
